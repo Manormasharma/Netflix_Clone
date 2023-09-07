@@ -2,7 +2,13 @@
 
 # Features
 - Home page without Login
+Routing
+Header
+
 - Signin, Register Page
+    - Form validation
+    - Use ref Hook
+     
 
 - Browse(After Authentication)
     - Header
