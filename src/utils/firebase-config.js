@@ -13,8 +13,8 @@ const firebaseConfig = {
   projectId: "netflix-clone-bef0e",
   storageBucket: "netflix-clone-bef0e.appspot.com",
   messagingSenderId: "983456668546",
-  appId: "1:983456668546:web:71d3d1a812a3de28db4d9b",
-  measurementId: "G-CTRXKLVVY3"
+  appId: "1:983456668546:web:51c11006b09bfb57db4d9b",
+  measurementId: "G-9LW0ZCXR6B"
 };
 
 // Initialize Firebase
