@@ -1,8 +1,7 @@
 {
-  "name": "Netflix_Clone",
+  "name": "netflix",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manormasharma.github.io/Netflix_Clone/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,6 +9,7 @@
     "bootstrap": "^5.3.1",
     "firebase": "^10.3.1",
     "formik": "^2.4.3",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
