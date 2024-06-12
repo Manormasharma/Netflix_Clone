@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.slick-dots li button:before{
+    content: '=====';
+    opacity: .55;
+    color: rgb(100, 100, 100) !important;   
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: white !important; 
+}
+.slick-dots{
+    display: block;
+    top: -50px;
+    right: 0px;
+    width: auto;
+}
+.slick-arrow.slick-prev{
+    position: absolute;
+    top: -20px;
+    left: unset;
+    right: 75px;
+}
+.slick-arrow.slick-next{
+    position: absolute;
+    top: -20px;
+    right: 40px;
+}
