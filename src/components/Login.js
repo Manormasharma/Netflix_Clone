@@ -51,20 +51,24 @@ const Login = () => {
                 setErrorMessage(error.message)
             });
         }
-
     }
     
   return (
     <>  
         <Header/>
         <div className='flex h-screen items-center justify-center bg-login-bg-banner'>
+<<<<<<< HEAD
             <form onSubmit={(e)=> e.preventDefault()} className='p-12 bg-black min-h-[500px] w-[450px] flex flex-col text-white bg-opacity-90'>
+=======
+            <form onSubmit={(e)=> e.preventDefault()} className='p-12 bg-black w-[450px] flex flex-col text-white bg-opacity-90'>
+>>>>>>> a104a409a0b8d206fb897119e503bdaac97c108c
                 <h3 className='text-slate-300 mb-5 text-2xl'>{isSigninForm ? "Sign In" : "Sign Up"}</h3>
                 {!isSigninForm  && 
                     <input ref={name} name='name' type='text' placeholder='Name' className='p-3 mb-3 bg-gray-700' />
                 
                 }
                 <input ref={email} type='text' placeholder='Email Address' className='p-3 mb-3 bg-gray-700' />
+<<<<<<< HEAD
                 <input ref={password} type='password' placeholder='Password' className='p-3 mb-4 bg-gray-700' />
                 {errorMessage && <p className='text-slate-300 mb-3'>{errorMessage}</p>}
                 <button className='p-3 bg-brand-red mb-4' onClick={handleSubmitButton}>{isSigninForm ? "Sign In" : "Sign Up"}</button>
@@ -79,6 +83,11 @@ const Login = () => {
                         <p className='text-slate-300'>Need Help?</p>
                     </div>
                 </div>
+=======
+                <input ref={password} type='password' placeholder='Password' className='p-3 mb-5 bg-gray-700' />
+                <p className='text-slate-300 mb-3'>{errorMessage}</p>
+                <button className='p-4 bg-brand-red mb-5' onClick={handleSubmitButton}>{isSigninForm ? "Sign In" : "Sign Up"}</button>
+>>>>>>> a104a409a0b8d206fb897119e503bdaac97c108c
                 <div>
                     <p className='text-slate-300' onClick={toggleSignIn} >{isSigninForm ? "New to Netflix? Signup Now" : "Already Registered? Sign in Now"}</p>
                 </div>
